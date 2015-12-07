@@ -1,0 +1,39 @@
+body {
+	
+}
+
+.logo {
+	width: 100%; height: 100%; max-width: 272px; max-height: 201px;
+	display: block;
+	margin: 15% auto 0 auto;
+}
+
+.searchBox {
+	height: 35px; width: 100%; max-width: 525px;
+	display: block;
+	margin: 40px auto;
+}
+
+.buttonBox {
+	max-width: 525px;
+	margin: auto;
+	text-align: center;
+}
+
+button {
+	padding: 10px 13px 10px 13px;
+	margin-right: 4px;
+	border: 1px solid #F1F1F1;
+	border-radius: 2px;
+	background-color: #F1F1F1;
+	color: #757575;
+	font-family: arial, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	opacity: .7;
+}
+
+button:hover{
+	border: 1px solid #F1F1F1;
+	opacity: 1;
+}
