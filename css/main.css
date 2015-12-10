@@ -48,22 +48,31 @@ button:hover{
 
 /*Navigation*/
 nav {
-	/*background-color: green;*/
 	width: 100%;
-	height: 45px;
+	height: 25px;
 	font-size: 13px;
+	margin-top: -25px; /*Fixes extra top margin from border-spacing in ul*/
 }
 
 ul {
-	/*background-color: orange;*/
 	float: right;
-	text-align: right;
+	text-align: 
+	/*Just to get vertical alignment working*/
+	display: table;
+	border-collapse: separate;
+	border-spacing: 15px;
 }
 
+.row { display: table-row;} /*Just to get vertical alignment working*/
+
 li {
-	/*background-color: red;*/
-	display: inline;
-	margin: 0 10px 0 0;
+	/*Just to get vertical alignment working*/
+    display:table-cell;
+    vertical-align : middle;
+}
+
+nav ul:first-child {
+	opacity: .55;
 }
 
 .profile {
